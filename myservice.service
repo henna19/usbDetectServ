@@ -1,5 +1,5 @@
 [Service]
-ExecStart=/usr/bin/usbDetectServ.sh
+ExecStart=bin/bash /usr/bin/usbDetectServ.sh
 
 [Install]
 WantedBy=multi-user.target
